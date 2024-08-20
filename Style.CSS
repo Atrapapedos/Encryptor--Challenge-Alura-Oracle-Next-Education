@@ -1,0 +1,190 @@
+
+* {
+    background-color: #8ca8ab;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    overflow: hidden;
+}
+
+.logo {
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 180px;
+}
+
+.text-area {
+    height: 350px;
+    border: none;
+    color: #10002b;
+    margin-top: 90px;
+}
+
+::placeholder {color:#044089;}
+.text-area:focus{
+ outline: none;
+}
+
+
+.mensaje-encrip:focus {
+    outline: none;
+    background-color: #071c2e;
+    color: #0A3871;
+    align-items: center;
+    text-align: center;
+}
+
+.mensaje-encrip {
+    background: rgb(181, 73, 73);
+    background-image: url("/Imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: #0d2037;
+    margin: 1rem auto;
+    padding: 1rem;
+    max-width: 900px;
+    position: relative; 
+    margin-right: 4%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/* Media Queries for responsiveness */
+@media (min-width:600px) {
+    .mensaje-encrip {
+        max-width: 90%;
+    }
+}
+
+@media (min-width: 768px) {
+    .mensaje-encrip {
+        max-width: 70%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .mensaje-encrip {
+        max-width: 100%;
+    }
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-encriptar{
+background-color:#0e3c73;
+color: aliceblue;
+border: 1px solid #0A3871 ;
+border-radius: 24px;
+cursor: pointer;
+height: 67px;
+width: 328px;
+}
+
+.btn-encriptar:hover {
+    background-color: #0D4A94;
+    box-shadow: 0 4px 8px rgba(10, 56, 113, 0.3);
+    transform: translateY(-2px);
+
+}
+
+.btn-desencriptar{
+
+    background-color:#D8DFE8;
+    color: #0A3871;
+    border: 1px solid hsl(213, 17%, 50%) ;
+    border-radius: 24px;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+.btn-desencriptar:hover{
+
+    background-color:#5e7da2;
+}
+
+
+.mensaje-encrip {
+    background: white;
+    background-image: url("/Imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin: 1rem auto;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+    max-width: 90%;
+    position: relative;
+    font-family: "Baskervville SC", serif;
+    margin-left: 200px;
+}
+
+/* botón copiar */
+.btn-copiar {
+    background-color: #0A3871;
+    color: aliceblue;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+    height: 67px;
+    width: 90%;
+    max-width: 328px;
+    margin: 1rem auto;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+    margin-right: 2%;
+    margin-left: 420px;
+
+}.btn-copiar:hover {
+    background: linear-gradient(45deg, #0A3871, #0D4A94);
+    box-shadow: 0 4px 8px rgba(10, 56, 113, 0.3);
+    transform: translateY(-2px);
+    font-family: "Baskervville SC", serif;
+}
+
+.btn-copiar:hover {
+    background-color: #0D4A94;
+    border: 2px solid #0A3871;
+    box-shadow: 0 4px 8px rgba(10, 56, 113, 0.3);
+    transform: translateY(-2px);
+}
+
+
+
+.informacion{
+    color: #495057;
+    font-size: 18px;
+    margin-top: 65px;
+    font-family:"Baskervville SC", serif;
+
+}
+
+/** pie de pagina*/
+.footer{
+
+    font-family: "Bodoni Moda SC", serif;
+    width: 100%;
+    margin-top: 5px;
+    padding: 20px 0;
+    color: #0A3871;
+    background-color: #b8c7da;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}

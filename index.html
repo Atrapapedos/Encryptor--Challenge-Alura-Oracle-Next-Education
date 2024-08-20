@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Estructura/Modelado/Style.CSS">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+<header>
+        <img src="/Imagenes/Frame 6.png" alt="logo de alura" class="logo">
+
+    </header>
+    <main>
+    <section class="input-section">
+        <textarea class="text-area" cols="30" rows="20" placeholder="Ingrese el texto aqui"></textarea>
+        <div>
+            <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+        </div>
+        <div class="botones">
+            <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+            <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+        </div>
+    </section>
+    <section class="output-section">
+        <textarea class="mensaje-encrip" cols="40" rows="9" placeholder="Ningun mensaje fue encontrado"></textarea>
+        <div class="boton">
+            <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
+        </div>
+    </section>
+</main>
+    <footer class="footer">Creado por Jonathan Mejia 2024</footer>
+    <script src="/JS/Encriptador.JS"></script>
+</body>
+</html>
